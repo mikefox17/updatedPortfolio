@@ -1,0 +1,34 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#profilePic {
+  padding: 10px;
+}
+nav {
+  position: fixed-top;
+}
+
+#logo {
+  padding-left: 20px;
+}
+
+#navBarCat {
+  padding-right: 20px;
+}
+
+p {
+  text-indent: 40px;
+}
+
+/* #p1 {
+  padding-right: 25px;
+}
+
+#p2 {
+  padding-right: 25px;
+}
+
+#p3 {
+  padding-right: 25px;
+} */
