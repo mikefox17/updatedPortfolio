@@ -21,7 +21,10 @@ nav {
 p {
   text-indent: 40px;
 }
-
+#emailLink {
+  color: white;
+  background-color: #ed6e73;
+}
 #gitHubLink {
   color: white;
   background-color: #ed6e73;
@@ -35,6 +38,9 @@ p {
 }
 
 #GHIC {
+  background-color: #ed6e73;
+}
+#EMIC {
   background-color: #ed6e73;
 }
 
