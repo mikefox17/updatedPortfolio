@@ -1,3 +1,4 @@
+/* DIDN'T NEED MUCH CSS, GOOGLE MATERAILIZE IS DOPE */
 html {
   scroll-behavior: smooth;
 }
@@ -21,17 +22,6 @@ p {
   text-indent: 40px;
 }
 
-/* #p1 {
-  padding-right: 25px;
-}
-
-#p2 {
-  padding-right: 25px;
-}
-
-#p3 {
-  padding-right: 25px;
-} */
 #gitHubLink {
   color: white;
   background-color: #ed6e73;
@@ -46,4 +36,11 @@ p {
 
 #GHIC {
   background-color: #ed6e73;
+}
+
+#instaLink {
+  color: white;
+}
+#twitterLink {
+  color: white;
 }

@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <!-- Compiled and minified CSS -->
+    <!-- FONT awesome for icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <link
       href="http://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <!--Import materialize.css-->
+    <!--Imaterialize.css, older version for working sidenav-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css"
     />
 
-    <!--Let browser know website is optimized for mobile-->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
@@ -31,11 +31,9 @@
     <Title>Mike Fox's Portfolio</Title>
   </head>
   <body>
-        <a id="#aboutMeCard"></a>
-        <a id="#portfolioMe"></a>
-        <a id="#contactMe"></a>
-      <!-- <div class="navbar-fixed"> -->
-          <div class="navbar-fixed">
+        
+      <!-- Nav bar, responsive turns into hamburger wuth slide out navbar -->
+          <div class="navbar-fixed hoverable">
         <nav>
       <div class="nav-wrapper z-depth-2" id="navBar">
         <a href="#!" class="brand-logo"  id="logo">Mike Fox</a>
@@ -53,56 +51,59 @@
           <li><a href="#aboutMeCard" class="waves-effect waves-light">About Me</a></li>
           <li><a href="#portfolioMe" class="waves-effect waves-light">Portfolio</a></li>
           <li><a href="#contactMe" class="waves-effect waves-light">Contact</a></li>
+          <br><hr><br>
+          <div class="row">
+          <div><h5 class="center">Connect</h5>
+            <br>
+            <!-- social links and icons -->
+            <div class="col s6"><a href="http://www.linkedin.com/in/MichaelFoxdownstairs"  class="hoverable z-depth-5 float right" target="_blank" id="linkedinLink"><ion-icon name="logo-linkedin" id="LLIC" size="large"></ion-icon></a></div>
+            
+            <div class="col s6"><a href="https://github.com/mikefox17" class="hoverable z-depth-5 float left"  target="_blank" id="gitHubLink"><ion-icon name="logo-github" size="large" id="GHIC">Github</ion-icon></a>
+          </div>
+            </div>
         </ul>
      
     </nav>
 
     
 
-<!-- </div> -->
+
 <div class="container"><br><hr><br></div> 
                           
     <div class="container">
-        
+        <!-- About me -->
       <div class="card-panel hoverable grey darken-1 z-depth-5">
         <div class="card-content white-text">
           <span class="card-title"  id="aboutMeCard"><h4>About Me</h4></span
           >
           <hr>
           
-          <!-- ADD PROFILE IMAGE HERE -->
+          <!-- responsive profile image -->
           <img class="float left" id="profilePic" class="responsive-img" width="300px;" src="assets/images/img1.png" />
           
           <p class="flow-text">
-            Hey! My name is Mike Fox, I'm from the District of Columbia area
-            (DMV). I am currently pursuing a carreer in web development with a
-            focus of front-end engineering with a full-stack education.
+            Hey! My name is Mike Fox, I'm from the District of Columbia area (DMV). I am currently pursuing a career in web development with a focus of front-end engineering with a full-stack education.
           </p>
-          <br>
+          
           <p class="flow-text">
-            I come from a long career in the restaurant industry with a
-            focus of hospitality and management. I was the General Manager of one
-            of the best neighbiorhood bars in DC. I spent well over a decade
-            working my way up, starting from a food runner all the way up to
-            managing a 3 million dollar a year buisness and oveerseeing every
-            aspect from the kitchen to front of house service.
+            I come from a long career in the restaurant industry with a focus of hospitality and management. I was the General Manager of one of the best neighborhood bars in DC. I spent well over a decade working my way up, starting from a food runner all the way up to managing a 3 million dollar a year business and overseeing every aspect from the kitchen to front of house service.
+
           </p>
-          <br>
+          
           <p class="flow-text">
-            I decided to make a change in my life and pursue developing. I've
-            always had a knack for technology and learning how things work. As
-            much as I love my carreer in hospitality I was ready to jump into
-            something new. Plus, the idea of having weekends off is pretty
-            inticing.
+            I decided to make a change in my life and pursue developing. I've always had a knack for technology and learning how things work. As much as I love my career in hospitality I was ready to jump into something new. Plus, the idea of having weekends off is pretty enticing.
+
           </p>
-          <br>
+          
             <p class="flow-text">
-                Little more about my actual life! I have two cats, and a Australian Sheppard. I've lived in DC proper for almost a decade and grew up in the area, I've seen this city transform over the last 30 years. I used ti be an avid gamer but now I just follow the industry. Big fan of true crime podcasts and docs. Aspiring "chef", whiskey snob, a guy who thinks he knows wine, and a world traveler.   </p>
-          </p>
+              Little more about my actual life! I have two cats and an Australian Sheppard. I've lived in DC proper for almost a decade and grew up in the area, I've seen this city transform over the last 30 years. I used to be an avid gamer but now I just follow the industry. Big fan of true crime podcasts and docs. Aspiring "chef", whiskey snob, I like to think that I know wine, and a world traveler.
+            </p>
+          
           <hr>
-          <div>
-          <a href="http://www.linkedin.com/in/MichaelFoxdownstairs" class="z-depth-5" id="linkedinLink"><ion-icon name="logo-linkedin" id="LLIC" size="large"></ion-icon></a>
-          <a href="https://github.com/mikefox17" class="z-depth-5" id="gitHubLink"><ion-icon name="logo-github" size="large" id="GHIC">Github</ion-icon></a>
+          <!-- Linkedin and github icons/links -->
+          <div><h5>Connect</h5>
+          <a href="http://www.linkedin.com/in/MichaelFoxdownstairs"  class="hoverable z-depth-5" target="_blank" id="linkedinLink"><ion-icon name="logo-linkedin" id="LLIC" size="large"></ion-icon></a>
+          <a href="https://github.com/mikefox17" class="hoverable z-depth-5"  target="_blank" id="gitHubLink"><ion-icon name="logo-github" size="large" id="GHIC">Github</ion-icon></a>
           </div>
             
         </div>
@@ -113,7 +114,7 @@
       
                               
       <br><hr><br>
-   <!-- Portfolio of my projects -->
+   <!-- Portfolio of my projects, hoverable cards, screenshots and links to projects and code -->
 <div class="container"><h4 class="center" id="portfolioMe">Portfolio</h4></div>
 <br>
     <div class="row">
@@ -121,7 +122,7 @@
             <div class="col s12 m6 l4">
                 
                 
-              <!-- Promo Content 1 goes here -->
+              
               <div class="card-panel hoverable z-depth-5"> <h4>Search Bar</h4>
                     <div class="card-image">
                             <img src="assets/images/p2.png" class="responsive-img"
@@ -133,15 +134,15 @@
                             <p>An autocomplete search bar used to search for popular dishes, this was a huge app used in Bone Apple Tea. It includes a huge array of options.  </p>
                           </div>
                           <div class="card-action">
-                            <a href="https://mikefox17.github.io/autocompleteSearchBar/">Try it now!</a>
-                            <a href="https://github.com/mikefox17/autocompleteSearchBar" class="float right">See the code</a>
+                            <a href="https://mikefox17.github.io/autocompleteSearchBar/" target="_blank">Try it now!</a>
+                            <a href="https://github.com/mikefox17/autocompleteSearchBar" target="_blank" class="float right">See the code</a>
 
                           </div>
               </div>
 
             </div>
             <div class="col s12 m6 l4">
-              <!-- Promo Content 2 goes here -->
+              
               <div class="card-panel hoverable z-depth-5"><h4> Bone Apple Tea</h4>
               <div class="card-image">
                     <img src="assets/images/p1.png" class="responsive-img" id="p2">
@@ -152,13 +153,13 @@
                     <p>Bone Apple Tea is a web app designed to users find amazing dishes based off of other users images, location, and a database.  </p>
                   </div>
                   <div class="card-action">
-                    <a href="https://rachitvijay17.github.io/Bone-Apple-Tea/">Try it now!</a>
-                    <a href="https://github.com/rachitvijay17/Bone-Apple-Tea" class="float right">See the code</a>
+                    <a href="https://rachitvijay17.github.io/Bone-Apple-Tea/" target="_blank">Try it now!</a>
+                    <a href="https://github.com/rachitvijay17/Bone-Apple-Tea" target="_blank" class="float right">See the code</a>
                   </div>
 </div>
             </div>
             <div class="col s12 m6 l4">
-              <!-- Promo Content 3 goes here -->
+              
               <div class="card-panel hoverable z-depth-5"> <h4>Gem Game</h4>
                     <div class="card-image">
                             <img src="assets/images/p3.png" class="responsive-img" id="p3">
@@ -169,8 +170,8 @@
                             <p>This gem collector game was built using JQUERY, it was a fun project to work on. It's a classic game of computer logic vs human logic.  </p>
                           </div>
                           <div class="card-action">
-                            <a href="https://rachitvijay17.github.io/Bone-Apple-Tea/">Try it now!</a>
-                            <a href="https://github.com/mikefox17/unit-4-game" class="float right">See the code</a>
+                            <a href="https://mikefox17.github.io/unit-4-game/" target="_blank">Try it now!</a>
+                            <a href="https://github.com/mikefox17/unit-4-game" target="_blank" class="float right">See the code</a>
                           </div>
               </div>
 
@@ -180,6 +181,7 @@
           <br><br>
           <br><hr><br>
           </div>
+          <!-- contact form -->
           <h4 class="center">Get in touch</h4>
 
           <div class="container" id="contactMe">
@@ -217,7 +219,7 @@
                                         <div class="input-field col s12">
                                           <textarea id="textarea2" class="materialize-textarea" data-length="200"></textarea>
                                           <label for="textarea2">Drop me a message</label>
-                                          <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                          <button class="btn waves-effect waves-light" type="submit" id="submitBTN" name="action">Submit
                                                 <i class="material-icons right">send</i>
                                               </button>
                                                     
@@ -228,7 +230,23 @@
                                   </div>
                                         
           </div>
+          <!-- footer, very minimalistic -->
+          <footer class="page-footer">
+            
+              
+            
+            <div class="footer-copyright">
+              <div class="container">
+              <!-- icons and links to git, linkedin, twitter, instagram -->
+              <a href="http://www.linkedin.com/in/MichaelFoxdownstairs"  class="hoverable z-depth-5" target="_blank" id="linkedinLink" style="background-color: #757575;"><ion-icon name="logo-linkedin" id="LLIC" size="large" style="background-color: #757575;"></ion-icon></a>
+          <a href="https://github.com/mikefox17" class="hoverable z-depth-5"  target="_blank" id="gitHubLink" style="background-color: #757575;"><ion-icon name="logo-github" size="large" id="GHIC" style="background-color: #757575;">Github</ion-icon></a>
+          <a href="https://www.instagram.com/thefoxdownstairs" class="hoverable z-depth-5"  target="_blank" id="instaLink" style="background-color: #757575;"><ion-icon name="logo-instagram" size="large" id="IGIC" style="background-color: #757575;">Instagram</ion-icon></a>
+          <a href="https://twitter.com/foxdownstairs" class="hoverable z-depth-5"  target="_blank" id="twitterLink" style="background-color: #757575;"><ion-icon name="logo-twitter" size="large" id="twitterIC" style="background-color: #757575;">Instagram</ion-icon></a>
           
+              </div>
+              <p class="right-align" style="margin-right: 5%;"> &copy; 2019 Fox Codes</p>
+            </div>
+          </footer>
                 
 
           <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
@@ -240,7 +258,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 
     <script>
-      
+      //jquery to init sidenav and character count provided from materialize documentation
     $(document).ready(function() {
     $('input#input_text, textarea#textarea2').characterCounter();
     $(".button-collapse").sideNav();
